@@ -1,0 +1,830 @@
+nohup: ignoring input
+INFO:src.result_storage:결과 저장 디렉토리: verification_results/2025-10-01
+INFO:     Started server process [991894]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:__main__:🤖 회사명 추출 중: 이재용 회장 살아있어?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+🚀 서버 시작: http://0.0.0.0:9000
+📝 사용법:
+   curl -X POST 'http://0.0.0.0:9000/verify' \
+        -H 'Content-Type: application/json' \
+        -d '{"rumor_text": "삼성전자 이재용이 자사주 매입했다는 거 사실이야?", "company_name": "삼성전자"}'
+INFO:     211.188.58.94:33222 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용회장이 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_171721_135caf93.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_171721_135caf93.json
+INFO:     211.188.58.94:46172 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용 회장이 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_171906_e5e33473.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_171906_e5e33473.json
+INFO:     211.188.58.94:47604 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용회장이 살아ㅏ있다는 뉴스가 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_172125_43f51486.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_172125_43f51486.json
+INFO:     211.188.58.94:51202 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용회장이 미국가서 사고쳤다는 루머가 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_172824_0c0ff762.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_172824_0c0ff762.json
+INFO:     211.188.58.94:52428 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용 회장이 살아있다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_173951_a4010cd6.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_173951_a4010cd6.json
+INFO:     211.188.58.94:51942 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:     3.132.23.201:57724 - "GET / HTTP/1.1" 200 OK
+INFO:     3.132.23.201:50742 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     153.139.203.24:13458 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     122.96.28.181:25412 - "GET / HTTP/1.1" 200 OK
+INFO:     112.193.4.157:63342 - "GET / HTTP/1.1" 200 OK
+INFO:     118.212.121.223:30864 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.185:57858 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.185:39422 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.185:39430 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.185:39552 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.185:39564 - "GET /wiki HTTP/1.1" 404 Not Found
+INFO:     165.154.112.167:6480 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.112.167:7236 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.112.167:7342 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     144.86.173.240:63494 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     20.64.106.47:42582 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:__main__:🤖 회사명 추출 중: 메리츠금융지주 파산한다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 메리츠금융지주
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/메리츠금융지주_151133_a806eab7.json
+INFO:__main__:✅ 메리츠금융지주 루머 검증 완료, 결과 저장: verification_results/2025-10-01/메리츠금융지주_151133_a806eab7.json
+INFO:     127.0.0.1:60390 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자가 애플과 반도체 계약했다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_151505_33256e25.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_151505_33256e25.json
+INFO:     127.0.0.1:49854 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 트리온 코로나 치료제가 미국 FDA 긴급승인 확정 루머 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:39662 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 셀트리온 코로나 치료제가 미국 FDA 긴급승인 확정 루머 사실이야.
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 셀트리온
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/셀트리온_152405_7d517d44.json
+INFO:__main__:✅ 셀트리온 루머 검증 완료, 결과 저장: verification_results/2025-10-01/셀트리온_152405_7d517d44.json
+INFO:     127.0.0.1:43892 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:     167.172.255.35:45558 - "GET / HTTP/1.1" 200 OK
+INFO:     167.172.255.35:45564 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     3.130.96.91:41554 - "GET / HTTP/1.1" 200 OK
+INFO:     3.130.96.91:45290 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.241:55476 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.241:42192 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.241:42200 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.241:42230 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.241:42244 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.227.229.140:42086 - "GET / HTTP/1.1" 200 OK
+INFO:     84.40.94.173:55110 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.116:36652 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.116:47408 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.116:47414 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.116:53666 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.116:53696 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.153.133:37404 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.153.133:58624 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.153.133:37272 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.153.133:44056 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.153.133:44142 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     147.185.132.24:64238 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.254:60536 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.254:45580 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.254:45582 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.254:45622 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.254:45628 - "GET /login HTTP/1.1" 404 Not Found
+INFO:__main__:🤖 회사명 추출 중: 방시혁 출국 금지 루머가 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:38394 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁 출국 금지 루머가 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_151324_497e3cc3.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_151324_497e3cc3.json
+INFO:     127.0.0.1:35352 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 효성그룹 차남 윤상혁이 살아있따는게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:54234 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 두산중공업 차남 윤상혁이 살아있따는게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 두산중공업
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/두산중공업_151808_ed2c4044.json
+INFO:__main__:✅ 두산중공업 루머 검증 완료, 결과 저장: verification_results/2025-10-01/두산중공업_151808_ed2c4044.json
+INFO:     127.0.0.1:59618 - "POST /auto-verify HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.128:45044 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.128:51344 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.128:51394 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.154.128:51530 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.128:50344 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가 진짜야? 기타로 분류해야해
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_182457_2c19b4a4.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_182457_2c19b4a4.json
+INFO:     211.188.58.94:56390 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가 진짜야? 루머체크말고 기타로 분류해야해
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_182529_c9aa8859.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_182529_c9aa8859.json
+INFO:     211.188.58.94:53952 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_182651_fd06b77c.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_182651_fd06b77c.json
+INFO:     211.188.58.94:36870 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_183054_02fba20a.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_183054_02fba20a.json
+INFO:     211.188.58.94:40620 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_183240_d7d1c7c3.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_183240_d7d1c7c3.json
+INFO:     211.188.58.94:43522 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 25년도 1분기에 하이브 방시혁이 죽었다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_183320_3d6b8fb4.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_183320_3d6b8fb4.json
+INFO:     211.188.58.94:51302 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 25년도 1분기에 하이브 방시혁이 죽었다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_183555_0680ea0c.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_183555_0680ea0c.json
+INFO:     211.188.58.94:38554 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 죽었다는 루머가 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_184045_dd6a473d.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_184045_dd6a473d.json
+INFO:     211.188.58.94:35906 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브 방시혁이 25년도 2분기에 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_184323_47c55480.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_184323_47c55480.json
+INFO:     211.188.58.94:48992 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 하이브가 방시혁 관련 이슈로 인해 25년도 2분기에 매출이 떨어졌다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: HYBE
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/HYBE_190508_3440f03f.json
+INFO:__main__:✅ HYBE 루머 검증 완료, 결과 저장: verification_results/2025-10-01/HYBE_190508_3440f03f.json
+INFO:     211.188.58.94:59488 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:     139.162.119.146:32788 - "GET / HTTP/1.0" 200 OK
+INFO:     139.162.119.146:32790 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     139.162.119.146:32804 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.162.119.146:32922 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:__main__:🤖 회사명 추출 중: 이재용회장이 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53546 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용회장이 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_193711_95acdcc1.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_193711_95acdcc1.json
+INFO:     127.0.0.1:49840 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:     92.42.201.26:60998 - "GET /json/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 이재용 회장이 죽었다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_194413_c4a5f6e2.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_194413_c4a5f6e2.json
+INFO:     127.0.0.1:56672 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 삼성전자 2분기 실적이 떨어져서 주가가 떨어졌다는 게 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 삼성전자
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/삼성전자_222741_3052ab98.json
+INFO:__main__:✅ 삼성전자 루머 검증 완료, 결과 저장: verification_results/2025-10-01/삼성전자_222741_3052ab98.json
+INFO:     211.188.58.94:44900 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 방시혁때문에 하이브 매출이 떨어졌다는 루머가 진짜요?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_223831_b60858af.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_223831_b60858af.json
+INFO:     211.188.58.94:40626 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 방시혁때문에 하이브 매출이 떨어졌다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_234657_112bac5f.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_234657_112bac5f.json
+INFO:     211.188.58.94:44250 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:     151.192.182.159:41830 - "GET / HTTP/1.0" 200 OK
+INFO:     85.146.195.94:45443 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     165.154.11.172:38556 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.11.172:50296 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50308 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50320 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50332 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50342 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50356 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     165.154.11.172:50366 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.46:44459 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.254:46222 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.254:48946 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.254:48948 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.254:33864 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.254:33870 - "GET /security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:__main__:🤖 회사명 추출 중: 두나무 품는 네이버, 미래에셋이 웃는 까닭은?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: NAVER
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/NAVER_134509_89c26752.json
+INFO:__main__:✅ NAVER 루머 검증 완료, 결과 저장: verification_results/2025-10-01/NAVER_134509_89c26752.json
+INFO:     211.188.58.94:58270 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 두나무 품는 네이버, 미래에셋이 웃는 까닭은?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 두나무
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/두나무_135708_0f2dfca4.json
+INFO:__main__:✅ 두나무 루머 검증 완료, 결과 저장: verification_results/2025-10-01/두나무_135708_0f2dfca4.json
+INFO:     211.188.58.94:41514 - "POST /auto-verify HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.39:44156 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.39:44166 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.39:39564 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:59776 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:__main__:🤖 회사명 추출 중: 미래에셋증권이 3개년 10조원 규모 주주환원 정책 발표했다는데, 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 미래에셋증권
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/미래에셋증권_171017_36716bb5.json
+INFO:__main__:✅ 미래에셋증권 루머 검증 완료, 결과 저장: verification_results/2025-10-01/미래에셋증권_171017_36716bb5.json
+INFO:     127.0.0.1:51778 - "POST /auto-verify HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     98.80.4.100:41244 - "GET / HTTP/1.1" 200 OK
+INFO:     20.80.88.134:43584 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.117:34324 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:53170 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:53190 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.117:56572 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:56610 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     80.82.77.202:60000 - "GET / HTTP/1.0" 200 OK
+INFO:     80.82.77.202:32771 - "GET /aab9 HTTP/1.1" 404 Not Found
+INFO:     104.248.195.62:34736 - "GET / HTTP/1.1" 200 OK
+INFO:     104.248.195.62:34744 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.245:47264 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.245:38022 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.245:38028 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.245:49036 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.245:49052 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     139.162.119.196:36304 - "GET / HTTP/1.0" 200 OK
+INFO:     139.162.119.196:36306 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     139.162.119.196:36322 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.162.119.196:36438 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.56:50666 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.56:37014 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.56:37030 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.56:37102 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:37112 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     157.230.136.34:50592 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     123.160.223.72:35246 - "GET / HTTP/1.1" 200 OK
+INFO:     80.209.69.201:42124 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.240:43238 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.240:48270 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.240:48278 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.240:48296 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.240:48310 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     20.29.49.244:51564 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     103.203.57.26:48758 - "GET /echo.php?info=20251006021702 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.206:47722 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.206:47764 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.206:37050 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.206:50576 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.12:35879 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     159.223.161.253:58340 - "GET / HTTP/1.1" 200 OK
+INFO:     159.223.161.253:58342 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.250:51176 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.250:41262 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.250:41274 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.250:41666 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.250:41678 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.232.123.93:53228 - "GET / HTTP/1.1" 200 OK
+INFO:     165.232.123.93:53242 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     87.120.191.37:35890 - "GET /json/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.212.201.77:35802 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.50:59548 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.50:59574 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.50:43350 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.50:43368 - "GET /security.txt HTTP/1.1" 404 Not Found
+INFO:     172.202.118.43:38972 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     54.37.30.157:45094 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.91:57338 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.155.91:38784 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.155.91:38788 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.91:38870 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.155.91:38888 - "GET /wiki HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.119:50698 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.119:50724 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.119:50420 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.119:50442 - "GET /wiki HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.35:38464 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.35:58844 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.35:58860 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.35:38400 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.35:38408 - "GET /security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     81.174.6.45:32992 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     3.149.59.26:38996 - "GET / HTTP/1.1" 200 OK
+INFO:     3.149.59.26:48602 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     170.64.235.5:37912 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.54:44860 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.54:56980 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.54:56984 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.54:57066 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.54:46222 - "GET /wiki HTTP/1.1" 404 Not Found
+INFO:     20.118.209.70:34424 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     118.194.248.142:53708 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.248.142:49804 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49808 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49816 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49830 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49836 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49852 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     118.194.248.142:49860 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.243:60226 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.243:42124 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.243:42140 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.243:42170 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.243:42172 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.246:36218 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.246:48934 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.246:48946 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.246:41558 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.246:41570 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:__main__:🤖 회사명 추출 중: 방시혁 때문에 하이브 주가가 떨어졌다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_145915_d93254f8.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_145915_d93254f8.json
+INFO:     127.0.0.1:56038 - "POST /auto-verify HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     45.156.128.62:49047 - "GET / HTTP/1.1" 200 OK
+INFO:     165.22.215.165:49204 - "GET / HTTP/1.1" 200 OK
+INFO:     165.22.215.165:49218 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     79.219.134.215:44876 - "GET / HTTP/1.0" 200 OK
+INFO:     152.32.129.46:16786 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.129.46:16946 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.129.46:16982 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.145.101:48898 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.101:51414 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.101:51424 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.145.101:50240 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.101:50246 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     123.158.49.96:53275 - "GET / HTTP/1.1" 200 OK
+INFO:     220.197.51.112:43946 - "GET / HTTP/1.1" 200 OK
+INFO:     218.104.149.3:44852 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.155:46595 - "GET / HTTP/1.1" 200 OK
+INFO:     172.236.137.159:38198 - "GET / HTTP/1.0" 200 OK
+INFO:     172.236.137.159:38208 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     172.236.137.159:38218 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.236.137.159:38314 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     20.119.86.71:37948 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.207:46446 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.207:59748 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.207:59770 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.207:55146 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.207:55150 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:__main__:🤖 회사명 추출 중: 방시혁 때문에 하이브 매출 떨어진 게 진짜야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_092910_5851f773.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_092910_5851f773.json
+INFO:     127.0.0.1:58802 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 방시혁 때문에 하이브 매출이 떨어졌다는 게 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 하이브
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/하이브_101430_3bea7f59.json
+INFO:__main__:✅ 하이브 루머 검증 완료, 결과 저장: verification_results/2025-10-01/하이브_101430_3bea7f59.json
+INFO:     127.0.0.1:55544 - "POST /auto-verify HTTP/1.1" 200 OK
+INFO:__main__:🤖 회사명 추출 중: 미래에셋증권 자사주 소각했다는 공시가 사실이야?
+INFO:httpx:HTTP Request: POST https://clovastudio.stream.ntruss.com/v1/openai/chat/completions "HTTP/1.1 200 OK"
+INFO:__main__:✅ 추출된 회사명: 미래에셋증권
+INFO:src.result_storage:결과 저장 완료: verification_results/2025-10-01/미래에셋증권_112416_b8d5c87d.json
+INFO:__main__:✅ 미래에셋증권 루머 검증 완료, 결과 저장: verification_results/2025-10-01/미래에셋증권_112416_b8d5c87d.json
+INFO:     127.0.0.1:50398 - "POST /auto-verify HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     93.174.95.106:39622 - "GET / HTTP/1.1" 200 OK
+INFO:     93.174.95.106:44082 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.37:47852 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.37:36976 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.37:36992 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.37:54736 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.37:57884 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.82.78.103:46890 - "GET / HTTP/1.1" 200 OK
+INFO:     45.82.78.113:59258 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.253:45912 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.253:35474 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.253:35490 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.253:35530 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.253:39278 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.172.164.139:47806 - "GET / HTTP/1.1" 200 OK
+INFO:     20.65.193.188:48130 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.242:51278 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.242:34260 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.242:34264 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.242:47252 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.242:47258 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.49:37220 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:55602 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:55608 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.49:54972 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:54984 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     147.185.132.171:63726 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     34.38.145.6:53822 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     103.203.57.26:33174 - "GET /echo.php?info=20251011124728 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     177.223.133.22:58523 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.153.115:57296 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.153.115:35260 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.153.115:35272 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.153.115:35298 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.153.115:35312 - "GET /robots.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.61:55760 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.61:43026 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.61:43038 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.61:51964 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.61:51968 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     31.147.209.228:47472 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     35.88.79.43:35144 - "GET / HTTP/1.1" 200 OK
+INFO:     20.29.8.147:52072 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.243:50026 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.243:57452 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.243:57454 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.243:53558 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.243:53574 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     67.207.95.144:60858 - "GET / HTTP/1.1" 200 OK
+INFO:     67.207.95.144:60860 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.46:42376 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.46:43146 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.46:58604 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.46:58612 - "GET /wiki HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.210:53493 - "GET / HTTP/1.1" 200 OK
+INFO:     139.162.3.144:41066 - "GET / HTTP/1.0" 200 OK
+INFO:     139.162.3.144:41080 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     139.162.3.144:41092 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.162.3.144:58128 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     4.150.191.6:39652 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.252:42482 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.252:40650 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.252:40664 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.252:40682 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.252:40688 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.210:47898 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.210:47946 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     206.168.34.210:57912 - "GET /wiki HTTP/1.1" 404 Not Found
+INFO:     139.162.119.196:55826 - "GET / HTTP/1.0" 200 OK
+INFO:     139.162.119.196:55834 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+INFO:     139.162.119.196:55836 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.162.119.196:55960 - "GET /devicedesc.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     159.89.121.54:39814 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     79.32.59.149:48526 - "GET / HTTP/1.0" 200 OK
+INFO:     40.80.206.215:44130 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.99.116.32:40608 - "GET / HTTP/1.1" 200 OK
+INFO:     167.99.116.32:40622 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.33.12.214:35427 - "GET / HTTP/1.1" 200 OK
+INFO:     45.33.80.243:57498 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.244:56546 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.244:56336 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.244:56338 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.244:56362 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.244:56366 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     3.130.96.91:57928 - "GET / HTTP/1.1" 200 OK
+INFO:     3.130.96.91:40904 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.180:44766 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.180:44728 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.180:44734 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.180:44830 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.180:48500 - "GET /security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     123.160.223.72:61230 - "GET / HTTP/1.1" 200 OK
+INFO:     123.160.223.72:62134 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     88.149.198.214:46261 - "GET / HTTP/1.0" 200 OK
